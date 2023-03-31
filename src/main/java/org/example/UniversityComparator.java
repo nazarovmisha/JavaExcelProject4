@@ -1,4 +1,6 @@
 package org.example;
 
-public interface UniversityComparator {
+import java.util.Comparator;
+
+public interface UniversityComparator extends Comparator<University> {
 }
